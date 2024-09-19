@@ -1,0 +1,29 @@
+Run terminal : node server.js
+Port : localhost:8080
+
+Sign up
+/api/auth/signup
+{
+    "username" : "",
+    "email" : "",
+    "password" : "",
+    "roles" : [""]
+}for Roles : ["user", "admin"]
+
+Sign In
+/api/auth/signin
+{
+    "username" : "",
+    "password" : ""
+}
+
+Sign Out
+/api/auth/signout
+{
+    "username" : "",
+    "password" : ""
+}
+
+/api/get/all
+/api/user
+/api/admin
